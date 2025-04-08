@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const multer = require("multer");
 
 const app = express(); //stored in a variable "app"
-const Connection = "mongodb+srv://Maryam11244:<db_password>@maryam195890.42xm9.mongodb.net/?retryWrites=true&w=majority&appName=Maryam195890"; /*mongodb connection string*/
+const Connection = "mongodb+srv://Maryam11244:Windows_7@maryam195890.42xm9.mongodb.net/?retryWrites=true&w=majority&appName=Maryam195890"; /*mongodb connection string*/
 
 mongoose.connect(Connection).then(() => console.log("connected to db"));
 
